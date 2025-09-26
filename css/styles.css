@@ -11732,3 +11732,12 @@ html {
     left: -2vw;
   }
 }
+
+
+.bg-gradient-primary-to-secondary {
+    background: linear-gradient(135deg, #8FDEEA, #ffa600);
+}
+
+.text-gradient-d-inline {
+  background: linear-gradient(135deg, #8D379E #ffa600);
+}
