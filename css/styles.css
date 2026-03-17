@@ -11741,3 +11741,62 @@ html {
 .text-gradient-d-inline {
   background: linear-gradient(135deg, #8D379E #ffa600);
 }
+
+/* Custom Theme Overrides */
+body {
+    background-color: #f8f9fa !important; /* Cleaner off-white background */
+    color: #2d3436;
+}
+
+.text-gradient {
+    background: linear-gradient(45deg, #1a112b, #6610f2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-secondary-custom {
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Button Styling */
+.btn-dark-custom {
+    background-color: #1a112b;
+    color: white;
+    border: none;
+    transition: transform 0.2s ease;
+}
+
+.btn-dark-custom:hover {
+    background-color: #2d1f4d;
+    color: white;
+    transform: translateY(-3px);
+}
+
+.btn-outline-custom {
+    border: 2px solid #1a112b;
+    color: #1a112b;
+    transition: all 0.2s ease;
+}
+
+.btn-outline-custom:hover {
+    background-color: #1a112b;
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* Profile Image Glow */
+.profile-container {
+    position: relative;
+    padding: 15px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 50%;
+}
